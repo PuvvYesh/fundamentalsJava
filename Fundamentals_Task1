@@ -1,0 +1,236 @@
+\\\Question1
+package fudam;
+
+public class swp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// AS-1
+		int fno =100, sno = 200, tsno = 0;
+		System.out.println("--- Before Swapping" );		
+		System.out.println("Fno" + "\t"+fno );
+		System.out.println("Sno" + "\t"+sno );	
+		 tsno = fno;
+		fno = sno;
+		 sno = tsno;	
+		System.out.println("--- After Swapping" );
+		System.out.println("Fno" + "\t"+fno );
+		System.out.println("Sno" + "\t"+sno );
+   		
+
+	}
+
+}
+\\\Question2
+package fudam;
+
+public class prob2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int fno =100, sno = 200;
+		System.out.println("--- Before Swapping" + "Fno: " + "\t"+ fno +"Sno" + "\t"+sno );
+		int tno = fno + sno; // 300
+		int lno = sno - fno; // 100
+			fno = tno - lno;//200
+			sno = lno;
+		System.out.println("--- After Swapping" + "Fno: " + "\t"+ fno +"Sno: " + "\t"+sno );
+			
+		
+		    
+ 
+	}
+
+}
+
+\\\Question 3
+package fudam;
+
+public class Prob3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int fno =100, sno = 200, tsno = 300 , ut = 0 ;
+		System.out.println("--- Before Swapping" + "Fno: " + "\t"+ fno +"Sno:" + "\t"+ sno +"tno:" + "\t"+ tsno);
+		ut = fno ;//ut =100
+		fno = sno;//fno=200
+		sno = tsno ;//sno =300
+		tsno = ut ;//tsno = 100
+		System.out.println("--- After Swapping" +"\t"+"Fno : " + "\t"+ fno+"\t"+"Sno : " + "\t"+ sno +"\t"+"tno : " + "\t"+ tsno);
+
+		
+		
+		
+		 
+		
+			
+		
+
+	}
+
+}
+\\\Question 4
+package fudam;
+
+public class prob4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int fno =100, sno = 200, tsno = 300;
+		System.out.println("--- Before Swapping" + "Fno: " + "\t"+ fno +"Sno:" + "\t"+ sno +"tno:" + "\t"+ tsno);
+		int asno = fno + sno + tsno;//asno= 600;
+		int bsno = fno - sno - tsno;//bsno= -400;
+		int dsno = tsno - sno;// 100
+		tsno = asno + bsno; //200
+		sno = dsno; // 100
+		fno = asno + bsno + dsno;// 300
+		System.out.println("--- After Swapping" + "Fno: " + "\t"+ fno +"Sno:" + "\t"+ sno +"tno:" + "\t"+ tsno);
+	
+		
+	}
+
+}
+\\\Question 5 
+package fudam;
+
+public class prob5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int fno =100, sno = 200, tsno = 300, fsno =400 ,ano = 0 ;
+		System.out.println("--- Before Swapping" + "Fno: " + "\t"+ fno +"Sno:" + "\t"+ sno +"tno:" + "\t"+ fsno+"fsno:" + "\t"+ fsno);
+		ano = fno;//100
+		fno = sno;//200
+		sno = tsno;//300
+		tsno = fsno;//400
+		fsno = ano;
+		System.out.println("--- After Swapping" + "Fno: " + "\t"+ fno +"Sno:" + "\t"+ sno +"tno:" + "\t"+ tsno+"fsno:" + "\t"+ fsno);
+		
+		
+	
+		
+		
+		
+		
+
+	}
+
+}
+\\\Question 6
+package fudam;
+
+public class prob6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int fno =100, sno = 200, tsno = 300, fsno =400  ;
+		System.out.println("--- Before Swapping" + "Fno: " + "\t"+ fno +"Sno:" + "\t"+ sno +"tno:" + "\t"+ fsno+"fsno:" + "\t"+ tsno);
+		int ano = fno + sno + tsno + fsno ;//1000
+		int bno = fno - sno - tsno - fsno ;//-800
+		int cno = fno + sno - tsno - fsno ;//-400
+		int dno = fno + sno ;//300
+		int eno = fno + tsno ;
+		
+		fno = ano + bno ;//200
+		sno = dno;//300
+		tsno =fsno ;//400
+		fsno = tsno - sno;//100
+		System.out.println("--- After Swapping" + "Fno: " + "\t"+ fno +"Sno:" + "\t"+ sno +"tno:" + "\t"+ tsno+"fsno:" + "\t"+ fsno);
+
+		
+	}
+
+}
+\\\Question 7 
+package fudam;
+
+public class prob7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int spc = 699;
+		float gst = 0.18f;
+		float tgst = spc*gst;
+		double tcost = spc + tgst ;
+		System.out.println("total Plan Cost " + "\t" + tcost); 
+		
+				
+
+	}
+
+}
+\\\Question 8
+package fudam;
+
+public class prob8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		float pizza1 = 399.0f;
+		float pizza = 2*pizza1 ;
+		float disc = 0.2f ;
+		double  totald = pizza * disc ;
+		double totalbill = pizza - totald ;
+		System.out.println("total bill Cost " + "\t" + totalbill ); 
+		
+		
+	}
+
+}
+\\\Question9
+package fudam;
+
+public class prob9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int salary = 8500;
+		float tx = 0.2f ;
+		double taxamount  = salary * tx  ;
+		System.out.println("taxamount " + "\t" + taxamount );
+		
+
+	}
+
+}
+\\\Question 10
+package fudam;
+
+public class prob10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int pri = 500000;
+		int tim = 5 ; 
+		double rat = 0.068d ;
+		double int1 = pri * tim * rat ;
+		double int2 = int1 / 100 ;
+		double amt = int2 + pri ;
+		System.out.println("total interest amount " + "\t" + int2 + "total deposit amount" +"\t"+ amt);
+		
+		
+
+	}
+
+}
+\\\Question 11
+package fudam;
+
+public class prob11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int bs = 85000;
+		double ta = 0.15d;
+		double da = 0.2d;
+		double hra = 0.18*bs ;
+		double pf = 0.2d ; 
+		double tax = 0.25*bs ;
+		double gross = bs + ta + da + hra ;
+		double net = gross -  (pf +tax);
+		System.out.println("total gross amount " + "\t" + gross + "total net amount" +"\t"+ net);	
+
+	}
+
+}
+
